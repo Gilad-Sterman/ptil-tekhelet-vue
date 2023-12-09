@@ -131,5 +131,9 @@ export default {
             }
         }
     }
+
+    @media (max-width: 500px) {
+        display: none;
+    }
 }
 </style>

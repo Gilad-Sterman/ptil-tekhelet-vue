@@ -4,6 +4,17 @@
             <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701769570/Picture3_w1rbeo.png" alt="" />
             <h1>The Tekhelet in the time of the Torah</h1>
         </div>
+        <div class="top-card">
+            <h2>The background for the period</h2>
+            <p>The Tekhelet accompanied the people of Israel from the beginning of our time as a nation. The Tekhelet,
+                which was considered a precious royal color, is mentioned in the description of the work of the Mishkan, the
+                priestly clothes and the Mitzvah of Tzitzit. The Torah commands: "Speak to the children of Israel and say to
+                them they should make Tzitzit on the corners of their clothes for their generations and put a Tekhelet
+                string on the
+                Tzitzit of the corner" (BaMidbar 15:36), and from that moment, Jews used Tekhelet and cast it in their
+                tassels.
+            </p>
+        </div>
         <div class="main-content">
             <SideBarEng />
             <div class="card-container">
@@ -222,10 +233,10 @@ export default {
 </script>
 <style lang="scss">
 .english {
+    font-family: 'Jost', sans-serif;
 
     .landing {
         img {
-            height: calc(100vh - 65px);
             opacity: .9;
             filter: brightness(.8);
         }
@@ -234,9 +245,20 @@ export default {
     h1 {
         text-align: center;
         position: absolute;
+        min-width: 800px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+
+        @media (max-width: 500px) {
+            min-width: 360px;
+        }
+    }
+
+    .top-card {
+        p {
+            margin-top: .5rem;
+        }
     }
 
     img {
@@ -259,6 +281,10 @@ export default {
             left: -5.5rem;
             width: max-content;
             box-shadow: 10px 10px 20px 0px rgba(6.999999999999995, 40.00000000000005, 61, 0.30196078431372547);
+
+            @media (max-width: 500px) {
+                left: 0;
+            }
         }
     }
 }

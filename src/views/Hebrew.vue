@@ -4,6 +4,14 @@
             <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701769570/Picture3_w1rbeo.png" alt="" />
             <h1>התכלת בתקופת המקרא</h1>
         </div>
+        <div class="top-card">
+            <h2>הרקע לתקופה</h2>
+            <p>התכלת ליוותה את עם ישראל מראשית ימינו כעם. התכלת, שנחשבה לצבע מלכותי יקר ערך, נזכרת בתיאור מלאכת המשכן, בבגדי
+                הכהונה ובמצוות ציצית. התורה מצווה: "דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם וְעָשׂוּ לָהֶם צִיצִת
+                עַל כַּנְפֵי בִגְדֵיהֶם לְדֹרֹתָם וְנָתְנוּ עַל צִיצִת הַכָּנָף פְּתִיל תְּכֵלֶת" (במדבר טו, לח), ומאותו רגע
+                ואילך, יהודים השתמשו בתכלת והטילו אותה בציציותיהם.
+            </p>
+        </div>
         <div class="main-content">
             <SideBar />
             <div class="card-container">
@@ -204,10 +212,10 @@ export default {
 <style lang="scss">
 .hebrew {
     direction: rtl;
+    font-family: 'Noto Sans Hebrew', sans-serif;
 
     .landing {
         img {
-            height: calc(100vh - 65px);
             opacity: .9;
             filter: brightness(.8);
         }
@@ -219,6 +227,12 @@ export default {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .top-card {
+        p {
+            margin-top: .5rem;
+        }
     }
 
     img {

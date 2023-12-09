@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: "ptil-tekhelet-vue",
+  base: "/ptil-tekhelet-vue/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

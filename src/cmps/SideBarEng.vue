@@ -107,16 +107,6 @@ export default {
 
 <style lang="scss">
 .side-bar {
-    // position: sticky;
-    // top: 65px;
-    // padding-inline-start: 30px;
-    // padding-inline-end: 5px;
-    // padding-top: 40px;
-    // display: flex;
-    // flex-direction: column;
-    // gap: 1rem;
-    // height: calc(100vh - 65px);
-    // background-color: var(--vt-c-blue);
 
     ul {
         padding-inline-start: 0;
@@ -139,7 +129,13 @@ export default {
                 &:hover {
                     color: #e6f4e9;
                 }
+
+                @media (max-width: 500px) {
+                    font-size: 1rem;
+                }
             }
+
+
         }
     }
 }
