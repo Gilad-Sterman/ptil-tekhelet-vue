@@ -38,7 +38,7 @@
                 <a href="#card12" :class="{ active: currCard('card12') }">חורבן נבוכדנצר</a>
             </li>
             <li>
-                <a href="#card13" :class="{ active: currCard('card13') }">מרדכבי היהודי</a>
+                <a href="#card13" :class="{ active: currCard('card13') }">מרדכי היהודי</a>
             </li>
         </ul>
     </section>
@@ -107,6 +107,8 @@ export default {
 
 <style lang="scss">
 .side-bar {
+    // height: 100%;
+
     ul {
         padding-inline-start: 0;
         margin: 0;

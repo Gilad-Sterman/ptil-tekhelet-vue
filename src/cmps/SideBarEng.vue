@@ -8,19 +8,19 @@
                 <a href="#card2" :class="{ active: currCard('card2') }">Avraham</a>
             </li>
             <li>
-                <a href="#card3" :class="{ active: currCard('card3') }">The El-Amarna tablets</a>
+                <a href="#card3" :class="{ active: currCard('card3') }">The El-Amarna Tablets</a>
             </li>
             <li>
                 <a href="#card4" :class="{ active: currCard('card4') }">Yehuda & Tamar</a>
             </li>
             <li>
-                <a href="#card5" :class="{ active: currCard('card5') }">Yaakov and his sons</a>
+                <a href="#card5" :class="{ active: currCard('card5') }">Yaakov & His Sons</a>
             </li>
             <li>
                 <a href="#card6" :class="{ active: currCard('card6') }">Exodus</a>
             </li>
             <li>
-                <a href="#card7" :class="{ active: currCard('card7') }">Lapis lazuli </a>
+                <a href="#card7" :class="{ active: currCard('card7') }">Lapis Lazuli </a>
             </li>
             <li>
                 <a href="#card8" :class="{ active: currCard('card8') }">The Mishkan</a>
@@ -32,10 +32,10 @@
                 <a href="#card10" :class="{ active: currCard('card10') }">Bet Hamikdash</a>
             </li>
             <li>
-                <a href="#card11" :class="{ active: currCard('card11') }">Assyrian cylinders</a>
+                <a href="#card11" :class="{ active: currCard('card11') }">Assyrian Cylinders</a>
             </li>
             <li>
-                <a href="#card12" :class="{ active: currCard('card12') }">The Destruction of the first Temple</a>
+                <a href="#card12" :class="{ active: currCard('card12') }">The Temple's Destruction</a>
             </li>
             <li>
                 <a href="#card13" :class="{ active: currCard('card13') }">Mordechai</a>

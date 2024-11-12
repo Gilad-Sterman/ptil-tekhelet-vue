@@ -1,26 +1,29 @@
 <template>
-    <section class="english">
+    <section class="english" ref="pageContainer">
         <div class='landing eng'>
-            <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701769570/Picture3_w1rbeo.png" alt="" />
-            <h1>The Tekhelet in the time of the Torah</h1>
+            <img src="https://res.cloudinary.com/dollaguij/image/upload/v1703170501/StringsTallit-port_w038ci.jpg" alt="" />
+            <h1>Tekhelet In The Tanach</h1>
         </div>
-        <div class="top-card">
-            <h2>The background for the period</h2>
-            <p>The Tekhelet accompanied the people of Israel from the beginning of our time as a nation. The Tekhelet,
-                which was considered a precious royal color, is mentioned in the description of the work of the Mishkan, the
-                priestly clothes and the Mitzvah of Tzitzit. The Torah commands: "Speak to the children of Israel and say to
-                them they should make Tzitzit on the corners of their clothes for their generations and put a Tekhelet
-                string on the
-                Tzitzit of the corner" (BaMidbar 15:36), and from that moment, Jews used Tekhelet and cast it in their
-                tassels.
-            </p>
-        </div>
+            <div class="top-card" id="card0">
+                <h2>The background for the period</h2>
+                <p>Tekhelet accompanied the people of Israel from the beginning of our time as a nation. The Tekhelet,
+                    which was considered a precious royal color, is mentioned in the description of the work of the Mishkan,
+                    the
+                    priestly clothes and the Mitzvah of Tzitzit. The Torah commands: "Speak to the children of Israel and
+                    say to
+                    them they should make Tzitzit on the corners of their clothes for their generations and put a Tekhelet
+                    string on the
+                    Tzitzit of the corner" (BaMidbar 15:36), and from that moment, Jews used Tekhelet and cast it in their
+                    tassels.
+                </p>
+            </div>
+            <DownScroll cardId="#card1" />
         <div class="main-content">
             <SideBarEng />
             <div class="card-container">
-                <div class="card" id="card1">
+                <div class="card first-card" id="card1">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701773673/Picture1_hizyvr.jpg"
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295370/TanachPictures_001_vzrdqz.jpg"
                             alt="" />
                         <div class="side-title eng">
                             The Minoans
@@ -34,9 +37,10 @@
                         expensive commodity in the Mediterranean world.
                     </p>
                 </div>
+                <DownScrollMain cardId="#card2" />
                 <div class="card" id="card2">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701774310/Picture2_qgqgrh.png"
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295369/TanachPictures_002_je7nkc.jpg"
                             alt="" />
                         <div class="side-title eng">
                             Avraham
@@ -49,9 +53,10 @@
                         were privileged with the Mitzvah of tzitzit.
                     </p>
                 </div>
+                <DownScrollMain cardId="#card3" />
                 <div class="card" id="card3">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701774884/Picture4_zx5gqu.jpg"
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295363/TanachPictures_003_l7xtd1.jpg"
                             alt="" />
                         <div class="side-title eng">
                             The El-Amarna tablets
@@ -65,9 +70,10 @@
                         prince.
                     </p>
                 </div>
+                <DownScrollMain cardId="#card4" />
                 <div class="card" id="card4">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701774894/Picture5_h4ypio.png"
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295367/TanachPictures_004_ah8g6l.jpg"
                             alt="" />
                         <div class="side-title eng">
                             Yehuda & Tamar
@@ -80,9 +86,10 @@
                         adorning their attire with Tekhelet, a signifier of royal status.
                     </p>
                 </div>
+                <DownScrollMain cardId="#card5" />
                 <div class="card" id="card5">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701777325/Picture15_cskfhy.jpg"
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295363/TanachPictures_005_cbayig.jpg"
                             alt="" />
                         <div class="side-title eng">
                             Yaakov and his sons
@@ -95,9 +102,10 @@
                         of the Tekhelet dye.
                     </p>
                 </div>
+                <DownScrollMain cardId="#card6" />
                 <div class="card" id="card6">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701774894/Picture7_hnp8p7.png"
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295363/TanachPictures_006_ngkcxc.jpg"
                             alt="" />
                         <div class="side-title eng">
                             Exodus
@@ -112,9 +120,10 @@
 
                     </p>
                 </div>
+                <DownScrollMain cardId="#card7" />
                 <div class="card" id="card7">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701774907/Picture8_jtblek.png"
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295363/TanachPictures_007_sucvw4.jpg"
                             alt="" />
                         <div class="side-title eng">
                             Lapis lazuli
@@ -127,9 +136,11 @@
                         the Torah and its sacred laws, as well as the divine majesty of God's holy throne.
                     </p>
                 </div>
+                <DownScrollMain cardId="#card8" />
                 <div class="card" id="card8">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701787365/HaBrit_r6syj2.png" alt="" />
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295362/TanachPictures_008_wvk1hb.jpg"
+                            alt="" />
                         <div class="side-title eng">
                             The Mishkan
                         </div>
@@ -142,9 +153,11 @@
                         dwelling for Him.
                     </p>
                 </div>
+                <DownScrollMain cardId="#card9" />
                 <div class="card" id="card9">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701789592/cohen_ciwbsl.png" alt="" />
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295362/TanachPictures_009_i7bcbl.jpg"
+                            alt="" />
                         <div class="side-title eng">
                             The Kohen Gadol
                         </div>
@@ -158,9 +171,11 @@
                         garments.
                     </p>
                 </div>
+                <DownScrollMain cardId="#card10" />
                 <div class="card" id="card10">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701787357/rocks_uiyysq.png" alt="" />
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295362/TanachPictures_010_tqzktt.jpg"
+                            alt="" />
                         <div class="side-title eng">
                             Bet Hamikdash
                         </div>
@@ -173,9 +188,11 @@
                         from Tyre.
                     </p>
                 </div>
+                <DownScrollMain cardId="#card11" />
                 <div class="card" id="card11">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701787350/cyln_l33ihu.png" alt="" />
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295371/TanachPictures_011_jdyimy.jpg"
+                            alt="" />
                         <div class="side-title eng">
                             Assyrian cylinders
                         </div>
@@ -188,9 +205,10 @@
                         type of Tekhelet in the ancient world common to both Israel and the surrounding nations.
                     </p>
                 </div>
+                <DownScrollMain cardId="#card12" />
                 <div class="card" id="card12">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701774888/Picture13_h8ffnb.png"
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295370/TanachPictures_012_e40zxh.jpg"
                             alt="" />
                         <div class="side-title eng">
                             The Destruction of the first Temple
@@ -203,9 +221,10 @@
                         Israel “from Tyre to Haifa”.
                     </p>
                 </div>
-                <div class="card" id="card13">
+                <DownScrollMain cardId="#card13" />
+                <div class="card last-card" id="card13">
                     <div class="img-container">
-                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1701774887/Picture14_whlezd.png"
+                        <img src="https://res.cloudinary.com/dollaguij/image/upload/v1702295371/TanachPictures_013_rstvhn.jpg"
                             alt="" />
                         <div class="side-title eng">
                             Mordechai
@@ -217,6 +236,7 @@
                         dressed in Tekhelet. You [Hashem] have always been their deliverance, their hope in every
                         generation.”
                     </p>
+                    <DownScrollLast />
                 </div>
             </div>
         </div>
@@ -224,21 +244,103 @@
 </template>
 
 <script>
+import DownScroll from '../cmps/DownScroll.vue';
+import DownScrollLast from '../cmps/DownScrollLast.vue';
+import DownScrollMain from '../cmps/DownScrollMain.vue';
 import SideBarEng from '../cmps/SideBarEng.vue';
+
 export default {
     components: {
-        SideBarEng
+        SideBarEng,
+        DownScroll,
+        DownScrollMain,
+        DownScrollLast
+    },
+    data() {
+        return {
+            intervalId: 0,
+            elementId: null
+        }
+    },
+    mounted() {
+        const html = document.querySelector('html')
+        this.autoScroll()
+    },
+    unmounted() {
+        clearInterval(this.intervalId)
+    },
+    methods: {
+        autoScroll() {
+            const card0 = document.getElementById('card0')
+            const card1 = document.getElementById('card1')
+            const card2 = document.getElementById('card2')
+            const card3 = document.getElementById('card3')
+            const card4 = document.getElementById('card4')
+            const card5 = document.getElementById('card5')
+            const card6 = document.getElementById('card6')
+            const card7 = document.getElementById('card7')
+            const card8 = document.getElementById('card8')
+            const card9 = document.getElementById('card9')
+            const card10 = document.getElementById('card10')
+            const card11 = document.getElementById('card11')
+            const card12 = document.getElementById('card12')
+            const card13 = document.getElementById('card13')
+
+            this.intervalId = setInterval(() => {
+                if (window.scrollY < card1.offsetTop - 100) {
+                    this.elementId = null
+                    // } else if (window.scrollY < card1.offsetTop - 100) {
+                    //     this.elementId = 0
+                } else if (window.scrollY < card2.offsetTop - 100) {
+                    this.elementId = 1
+                } else if (window.scrollY < card3.offsetTop - 100) {
+                    this.elementId = 2
+                } else if (window.scrollY < card4.offsetTop - 100) {
+                    this.elementId = 3
+                } else if (window.scrollY < card5.offsetTop - 100) {
+                    this.elementId = 4
+                } else if (window.scrollY < card6.offsetTop - 100) {
+                    this.elementId = 5
+                } else if (window.scrollY < card7.offsetTop - 100) {
+                    this.elementId = 6
+                } else if (window.scrollY < card8.offsetTop - 100) {
+                    this.elementId = 7
+                } else if (window.scrollY < card9.offsetTop - 100) {
+                    this.elementId = 8
+                } else if (window.scrollY < card10.offsetTop - 100) {
+                    this.elementId = 9
+                } else if (window.scrollY < card11.offsetTop - 100) {
+                    this.elementId = 10
+                } else if (window.scrollY < card12.offsetTop - 100) {
+                    this.elementId = 11
+                } else if (window.scrollY < card13.offsetTop - 100) {
+                    this.elementId = 12
+                }
+                else {
+                    this.elementId = 13
+                }
+                if (!this.elementId && this.elementId !== 0) this.elementId = 1
+                else this.elementId += 1
+                var el = document.getElementById(`card${this.elementId}`)
+                if (this.elementId > 13) {
+                    window.scrollTo(0, 0)
+                    this.elementId = null
+                    return
+                }
+                window.scrollTo(0, el.offsetTop - 50)
+            }, 20000)
+        }
     }
 }
 </script>
 <style lang="scss">
 .english {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Narkis';
 
     .landing {
         img {
             opacity: .9;
-            filter: brightness(.8);
+            filter: brightness(.6);
         }
     }
 
@@ -251,13 +353,37 @@ export default {
         transform: translate(-50%, -50%);
 
         @media (max-width: 500px) {
-            min-width: 360px;
+            min-width: 340px;
+            // max-width: 200px;
+            top: 30%;
+        }
+
+        @media (min-width: 1120px) {
+            top: 20%;
         }
     }
 
     .top-card {
+        h2 {
+            color: #4fa8e0;
+        }
+
+        // padding-top: 3rem;
+
         p {
+            // text-align: justify;
+            font-size: 32px;
+            color: #134869;
             margin-top: .5rem;
+            width: 990px;
+        }
+
+        @media (max-width: 500px) {
+            p {
+                width: 320px;
+                font-size: 1rem;
+                line-height: 1.1rem;
+            }
         }
     }
 
@@ -268,17 +394,20 @@ export default {
     .card {
         img {
             border-radius: 1rem;
-            aspect-ratio: 5/3;
             transition: 400ms;
+            // width: 70%;
 
             &:hover {
                 transform: translateY(-5px);
             }
+
+            @media (min-width: 1120px) {
+                width: 70%;
+            }
         }
 
         .side-title {
-            bottom: 0;
-            left: -5.5rem;
+            left: -2rem;
             width: max-content;
             box-shadow: 10px 10px 20px 0px rgba(6.999999999999995, 40.00000000000005, 61, 0.30196078431372547);
 
@@ -286,6 +415,10 @@ export default {
                 left: 0;
             }
         }
+    }
+
+    .last-card {
+        margin-bottom: 1100px;
     }
 }
 </style>
